@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Player_Script : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int Score_Value;
+    public int Score_Value;
 
     private Ray Rayinfo;
     private RaycastHit Hitinfo;
