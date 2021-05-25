@@ -28,7 +28,8 @@ public class GameMan_Script : MonoBehaviour
     public void SpawnCookies()
     {
         Vector3 SpawnPoint = gameObject.transform.position + new Vector3(Random.Range(-SpawnArea.x / 2, SpawnArea.x / 2), Random.Range(-SpawnArea.y / 2, SpawnArea.y / 2), Random.Range(-SpawnArea.z / 2, SpawnArea.z / 2));
-        Instantiate(Cookie_Prefab, SpawnPoint, Quaternion.identity);
+        GameObject newCookie = Instantiate(Cookie_Prefab, SpawnPoint, Quaternion.identity);
+        newCookie.transform.parent = gameObject.transform;
     }
 
     private void OnDrawGizmosSelected()

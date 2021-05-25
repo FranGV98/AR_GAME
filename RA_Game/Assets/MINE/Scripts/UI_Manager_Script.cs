@@ -7,7 +7,6 @@ public class UI_Manager_Script : MonoBehaviour
 {
     public GameObject UI_Panel;
     public bool Open;
-    public Player_Script player;
 
     void Start()
     {
@@ -27,13 +26,5 @@ public class UI_Manager_Script : MonoBehaviour
             Open = animator.GetBool("Open");
             animator.SetBool("Open", !Open);
         }      
-    }
-
-    public void CreateBuild()
-    {
-        if(player.Score_Value <= 5)
-        {
-
-        }
     }
 }
