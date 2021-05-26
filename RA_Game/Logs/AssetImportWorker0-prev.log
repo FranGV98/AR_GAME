@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 16305 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 16266 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,48 +11,48 @@ C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/frang/Documents/GitHub/AR_GAME/RA_Game
+C:/Users/aitor/Desktop/AR_GAME/RA_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50895
-Successfully changed project path to: C:/Users/frang/Documents/GitHub/AR_GAME/RA_Game
-C:/Users/frang/Documents/GitHub/AR_GAME/RA_Game
+51744
+Successfully changed project path to: C:/Users/aitor/Desktop/AR_GAME/RA_Game
+C:/Users/aitor/Desktop/AR_GAME/RA_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.38 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.73 ms.
+Refreshing native plugins compatible for Editor in 75.11 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.74 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/frang/Documents/GitHub/AR_GAME/RA_Game/Assets
+[Subsystems] Discovering subsystems at path C:/Users/aitor/Desktop/AR_GAME/RA_Game/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.6627
+    VRAM:     8081 MB
+    Driver:   27.21.14.6079
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001373 seconds.
+Registered in 0.003182 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.98 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 53.17 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.329 seconds
+- Completed reload, in  2.617 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004720 seconds.
+Registered in 0.008542 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -80,144 +80,752 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
+- Completed reload, in  1.461 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 1422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 1421 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2126.
-Total: 1.599000 ms (FindLiveObjects: 0.185900 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.264600 ms  DeleteObjects: 0.072300 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2122.
+Total: 2.435600 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.233500 ms MarkObjects: 1.790400 ms  DeleteObjects: 0.100500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MINE/Scripts/GuarruScript.cs
-  artifactKey: Guid(e2fa010058ab48d4281474791ae4c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Scripts/GuarruScript.cs using Guid(e2fa010058ab48d4281474791ae4c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf6a24ebe912cab9bbe853ee731b6a0') in 0.020949 seconds
-  Import took 0.022961 seconds .
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_04.FBX
+  artifactKey: Guid(1a91fefe32e1b3442a68f5dc4467843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_04.FBX using Guid(1a91fefe32e1b3442a68f5dc4467843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51d2fbe4fd841f799878ef674d96a4c') in 0.247071 seconds
+  Import took 0.251314 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536936448) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.9 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2130.
-Total: 1.641800 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.108300 ms MarkObjects: 1.249500 ms  DeleteObjects: 0.055000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003435 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536936448) extendedPlatform(0)
-Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2134.
-Total: 1.554900 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.284200 ms  DeleteObjects: 0.056100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 370.549493 seconds.
-  path: Assets/MINE/Scripts/GuarruScript.cs
-  artifactKey: Guid(e2fa010058ab48d4281474791ae4c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Scripts/GuarruScript.cs using Guid(e2fa010058ab48d4281474791ae4c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7090ca6deeac16321cdd8b95a5e62507') in 0.005035 seconds
-  Import took 0.007273 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sky.png
+  artifactKey: Guid(fc28bf2a7d2944a47814ec9d04a05efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sky.png using Guid(fc28bf2a7d2944a47814ec9d04a05efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb54d6b97931366426e4494e72a44b30') in 0.041302 seconds
+  Import took 0.045423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_08.FBX
+  artifactKey: Guid(d608be1e2b9bc414a85c73962cce15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_08.FBX using Guid(d608be1e2b9bc414a85c73962cce15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23a120239dcd073d3eeec87f3ac2aee') in 0.021892 seconds
+  Import took 0.025465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_02.FBX
+  artifactKey: Guid(f5dcb1794ab5fd4438bd739eea4b6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_02.FBX using Guid(f5dcb1794ab5fd4438bd739eea4b6806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c529efafbe5d888f8fc521dff499cb60') in 0.020449 seconds
+  Import took 0.023287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sea.FBX
+  artifactKey: Guid(b6c64f091242ca14a86a7fd301f9b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sea.FBX using Guid(b6c64f091242ca14a86a7fd301f9b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c555e8ec76f510b281521a22b0945d') in 0.017489 seconds
+  Import took 0.020396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models
+  artifactKey: Guid(2b721c9d263a7874b999aa7adc2884c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models using Guid(2b721c9d263a7874b999aa7adc2884c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b821362aabc1ba3bb17f8e5ada8efa6e') in 0.009446 seconds
+  Import took 0.012055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_02.FBX
+  artifactKey: Guid(9c08cd06ebe043149808bf61825a0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_02.FBX using Guid(9c08cd06ebe043149808bf61825a0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e503996da272962a265a7cc4ebf0b4') in 0.017548 seconds
+  Import took 0.020980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_city_inner.FBX
+  artifactKey: Guid(0eb67215ab790604d973fd413a6c9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_city_inner.FBX using Guid(0eb67215ab790604d973fd413a6c9403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598a51ff7223b76c5b5850076b727e2e') in 0.018564 seconds
+  Import took 0.021662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_standard.FBX
+  artifactKey: Guid(244e7c154626c3f48842212287eb02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_standard.FBX using Guid(244e7c154626c3f48842212287eb02ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9444cad011293b22aa620368a3b2be') in 0.021493 seconds
+  Import took 0.024353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_05.FBX
+  artifactKey: Guid(a422a06c258cb454281dc9f44d02fa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_05.FBX using Guid(a422a06c258cb454281dc9f44d02fa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644c9aa62a05a172d9237449d3eed2c8') in 0.018529 seconds
+  Import took 0.021109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_07.FBX
+  artifactKey: Guid(e3b45fbe52bf09d4a85de5441bf314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_07.FBX using Guid(e3b45fbe52bf09d4a85de5441bf314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaa602fccae6ca30d836179e3f2093d') in 0.020548 seconds
+  Import took 0.023853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_03.FBX
+  artifactKey: Guid(d7834a2d3936cd64792a3bdb565e2b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_03.FBX using Guid(d7834a2d3936cd64792a3bdb565e2b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd024b084b3c235771be7dc6b6c77de10') in 0.021363 seconds
+  Import took 0.024278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_04.FBX
+  artifactKey: Guid(c30dafe88949b9e458ba50855b4f1aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_04.FBX using Guid(c30dafe88949b9e458ba50855b4f1aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c708e0c63e878ee67970876e6cc27ff') in 0.021597 seconds
+  Import took 0.025342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_06.FBX
+  artifactKey: Guid(75029797fd1319c4d9b0213567756513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_06.FBX using Guid(75029797fd1319c4d9b0213567756513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846eb9dbb6a9937f8d621ab28de6dca3') in 0.019192 seconds
+  Import took 0.022816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_09.FBX
+  artifactKey: Guid(f51036cd069c7a240aa2e0d26e085036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_09.FBX using Guid(f51036cd069c7a240aa2e0d26e085036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e8825fca3276a53518272b69c6762a') in 0.019996 seconds
+  Import took 0.022905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain
+  artifactKey: Guid(496c570c9a14b264e91533646d997abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain using Guid(496c570c9a14b264e91533646d997abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74418bbac7eb46b6395f87fc2a1ba9c') in 0.007217 seconds
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_05.FBX
+  artifactKey: Guid(322332759abdef94fbdbe5fd2b8568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_05.FBX using Guid(322332759abdef94fbdbe5fd2b8568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d4a35ddfcdca4031573f325f4984bd') in 0.021888 seconds
+  Import took 0.025128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sky.FBX
+  artifactKey: Guid(a75fef1c44a85de47ac92b42d3c5aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/sky.FBX using Guid(a75fef1c44a85de47ac92b42d3c5aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff152c47782593892eff33d6d422ec78') in 0.021948 seconds
+  Import took 0.024958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_10.FBX
+  artifactKey: Guid(6e6f7ad179d279d448ad3a98093626db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_10.FBX using Guid(6e6f7ad179d279d448ad3a98093626db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae4a4d9baf5a9ca81ef0235d9847d54') in 0.019007 seconds
+  Import took 0.022601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_big_a.FBX
+  artifactKey: Guid(ed2e698cd87bb1d47944a570fa7962d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_big_a.FBX using Guid(ed2e698cd87bb1d47944a570fa7962d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132c6c8ea4c1591019d9744ec109c5a4') in 0.020154 seconds
+  Import took 0.026040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_01.FBX
+  artifactKey: Guid(58379ff237ae7ef4082fb2cc1cb3b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_01.FBX using Guid(58379ff237ae7ef4082fb2cc1cb3b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7440f8b49efc328570741c040b8a267e') in 0.020967 seconds
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_06.FBX
+  artifactKey: Guid(afd1e5e9f2fc2aa408f2cd041317462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/cliff_06.FBX using Guid(afd1e5e9f2fc2aa408f2cd041317462b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db003520ea16f819178eaac08035512') in 0.020744 seconds
+  Import took 0.024217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_03.FBX
+  artifactKey: Guid(3999e65bc91bf8849aaa44ab19946ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_03.FBX using Guid(3999e65bc91bf8849aaa44ab19946ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4091be270f70403dc7af9996bf7f3b56') in 0.016922 seconds
+  Import took 0.019713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/snow_mountain.FBX
+  artifactKey: Guid(7ba128a992dab8545af9ad5db7dd88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/snow_mountain.FBX using Guid(7ba128a992dab8545af9ad5db7dd88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cf87ab711e42c4f8b23665a5d68242') in 0.022031 seconds
+  Import took 0.024698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_01.FBX
+  artifactKey: Guid(08d3f953785783741852b54c2d08d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_01.FBX using Guid(08d3f953785783741852b54c2d08d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187931cfbadc7c04d2e1a749b0a9c64') in 0.019763 seconds
+  Import took 0.022923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005628 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_01.FBX
+  artifactKey: Guid(08d3f953785783741852b54c2d08d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Terrain/terrain_01.FBX using Guid(08d3f953785783741852b54c2d08d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187931cfbadc7c04d2e1a749b0a9c64') in 0.021055 seconds
+  Import took 0.024226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.180443 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props
+  artifactKey: Guid(4c9fabe8178aee641a807be7a3078331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props using Guid(4c9fabe8178aee641a807be7a3078331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb2904823a6f60e95d7701dbbd69d8e') in 0.009408 seconds
+  Import took 0.013132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102093 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/banner.FBX
+  artifactKey: Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/banner.FBX using Guid(653a77d8711adf3429a390ba25ee55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194a3d777c7d423f8fd550cc8fee5283') in 0.026191 seconds
+  Import took 0.030095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX
+  artifactKey: Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX using Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a4956e60df632b778cd51dd5712925') in 0.022835 seconds
+  Import took 0.028630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/barrel.FBX
+  artifactKey: Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/barrel.FBX using Guid(b899b109968a14f4797d7cd111cb647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c555e36c367a37f500dc6bd5fbd4291c') in 0.024262 seconds
+  Import took 0.030227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_03.FBX
+  artifactKey: Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_03.FBX using Guid(1fc714e0ee6763a43b1700e624f9a488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d9b550ad035b9e7254712bf511ac29') in 0.020493 seconds
+  Import took 0.024491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/fence_stick.FBX
+  artifactKey: Guid(06c930f4f9d4ea643883e730c38c530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/fence_stick.FBX using Guid(06c930f4f9d4ea643883e730c38c530b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093ed71a181a688bf47590f1f594277') in 0.021859 seconds
+  Import took 0.025650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX
+  artifactKey: Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX using Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6469179c88f5fabb62e30051c1e053a') in 0.022462 seconds
+  Import took 0.026520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/box.FBX
+  artifactKey: Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/box.FBX using Guid(1bcb7811de1531641a7547be7bf01fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf045645b7640f56b29c78822ea24d7') in 0.022557 seconds
+  Import took 0.026748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_c.FBX
+  artifactKey: Guid(da3ee31277576ae49a6692778aa8e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_c.FBX using Guid(da3ee31277576ae49a6692778aa8e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474d80c41d50eab0b7650c1e44daf1a') in 0.019349 seconds
+  Import took 0.022965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_chains.FBX
+  artifactKey: Guid(d7015dfb7e24ecb49a280f256db02a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_chains.FBX using Guid(d7015dfb7e24ecb49a280f256db02a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38ab628477cca5635551824147a6505') in 0.020062 seconds
+  Import took 0.022910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX
+  artifactKey: Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/barrel_group.FBX using Guid(a1431ac88ba4b0f4c861c48cee75e9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547c6be8297190f3e5da406f5f9fb9dc') in 0.024211 seconds
+  Import took 0.027429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_01.FBX
+  artifactKey: Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_01.FBX using Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9199319f9b433f2ef03c4c038a61029b') in 0.019976 seconds
+  Import took 0.024034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/fence.FBX
+  artifactKey: Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/fence.FBX using Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9b7caf57d0fb51319498b867bdf4b8') in 0.019538 seconds
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/wagon.FBX
+  artifactKey: Guid(14fd752655d1d074ba42478218b58227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/wagon.FBX using Guid(14fd752655d1d074ba42478218b58227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0ffaf10c7b97472227f944ef6152e8') in 0.023988 seconds
+  Import took 0.026886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/well.FBX
+  artifactKey: Guid(cd246b39aa3137347b2e8233b8a7adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/well.FBX using Guid(cd246b39aa3137347b2e8233b8a7adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809aa61e383b8fb035fee08d8db51e59') in 0.357538 seconds
+  Import took 0.361266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_corner.FBX
+  artifactKey: Guid(a8793ae45efd71545b54e3c7612887bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_corner.FBX using Guid(a8793ae45efd71545b54e3c7612887bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb235a780f5fb9b3296df5839d40f65a') in 0.020658 seconds
+  Import took 0.025476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/fire_cage.FBX
+  artifactKey: Guid(d35b39c89d21c8445b096b8317580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/fire_cage.FBX using Guid(d35b39c89d21c8445b096b8317580776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05cb5e558fee3b78039d301be42400f') in 0.019312 seconds
+  Import took 0.022531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX
+  artifactKey: Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX using Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078a7b049d19b81c66b48276eebe5d1d') in 0.022645 seconds
+  Import took 0.025955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_green_belt_a.FBX
+  artifactKey: Guid(6d884cae9cbeae345939b4f744556a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_green_belt_a.FBX using Guid(6d884cae9cbeae345939b4f744556a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb448232ff7affa4abcf67d3c67b16a9') in 0.019753 seconds
+  Import took 0.023205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_a.FBX
+  artifactKey: Guid(016522b72fe06e74d9c16f56d6a43cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_a.FBX using Guid(016522b72fe06e74d9c16f56d6a43cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2e0dd291d63b8faf31d820010ac4e') in 0.021281 seconds
+  Import took 0.026246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/fountain_b.FBX
+  artifactKey: Guid(80c58763d3b065b48924f320debf9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/fountain_b.FBX using Guid(80c58763d3b065b48924f320debf9ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b1dee0071737f618b3311da7b43afa') in 0.020237 seconds
+  Import took 0.023839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX
+  artifactKey: Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX using Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf891a3bba602d8c569da002afe4ee54') in 0.021101 seconds
+  Import took 0.025033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_02.FBX
+  artifactKey: Guid(9b3f216a7f371474eab056058feb31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/boat_02.FBX using Guid(9b3f216a7f371474eab056058feb31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d820d0a5ffeec20cf5dd73b837c66c9') in 0.024189 seconds
+  Import took 0.027463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX
+  artifactKey: Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a.FBX using Guid(5150fe3dc2d993a4bb7146d51238b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf891a3bba602d8c569da002afe4ee54') in 0.013158 seconds
+  Import took 0.016434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX
+  artifactKey: Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX using Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998a409624d0480204396dc54e9c820') in 0.023093 seconds
+  Import took 0.027687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_oil_light.FBX
+  artifactKey: Guid(47cdb03718b7455499aa6692ceba2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_oil_light.FBX using Guid(47cdb03718b7455499aa6692ceba2a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa695e67f775121934359cd2d07034') in 0.409307 seconds
+  Import took 0.413782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_pond_a.FBX
+  artifactKey: Guid(aca438496f8c96549aa10e232cbf3817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/street_pond_a.FBX using Guid(aca438496f8c96549aa10e232cbf3817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e226bac69d5666525f2a250ff5c4229a') in 0.038404 seconds
+  Import took 0.041799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_b.FBX
+  artifactKey: Guid(f54bdb463f46eee4bb8cb513069cd0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City/Models/Props/tent_b.FBX using Guid(f54bdb463f46eee4bb8cb513069cd0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9379369582c8bda375e0497bd0c119ec') in 0.035893 seconds
+  Import took 0.040617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.431526 seconds.
+  path: Assets/Packages/Polylised - Medieval Desert City
+  artifactKey: Guid(0ed07e24ab39aae45be1963b2dea9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Polylised - Medieval Desert City using Guid(0ed07e24ab39aae45be1963b2dea9928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729b658d18515785f382ffcdd5bc0a1b') in 0.009151 seconds
+  Import took 0.013003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446339 seconds.
+  path: Assets/Packages/Medieval_Gold
+  artifactKey: Guid(20f78b0647f8d444a8fcd551bb030664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Medieval_Gold using Guid(20f78b0647f8d444a8fcd551bb030664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee4860dad6e9d8bdbec1d122a901a13') in 0.010034 seconds
+  Import took 0.013012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120415 seconds.
+  path: Assets/Packages/Medieval_Gold/1_coin.FBX
+  artifactKey: Guid(e40fa0edf8a05e246b4f2025b5acdf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Medieval_Gold/1_coin.FBX using Guid(e40fa0edf8a05e246b4f2025b5acdf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c951d097d7ca272a2f2bb4ef9534b7b') in 0.157390 seconds
+  Import took 0.161235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Packages/Medieval_Gold/Gold_Ignots.FBX
+  artifactKey: Guid(22d89f75378c5f841a7ab97e49c98b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Medieval_Gold/Gold_Ignots.FBX using Guid(22d89f75378c5f841a7ab97e49c98b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32893a9b47d918380302af04ef968f37') in 0.441787 seconds
+  Import took 0.446543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Packages/Medieval_Gold/1_ignot.FBX
+  artifactKey: Guid(f61e2c06933fe5145a42eccb1e13acc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Medieval_Gold/1_ignot.FBX using Guid(f61e2c06933fe5145a42eccb1e13acc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67d0fd8d0efd636be0dcdc4072a016b') in 0.023491 seconds
+  Import took 0.026588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Medieval_Gold/Coins.FBX
+  artifactKey: Guid(e5a1087c565204f42969686d1df0633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Medieval_Gold/Coins.FBX using Guid(e5a1087c565204f42969686d1df0633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2858469313d968e14b7caf9abe7d77') in 0.319450 seconds
+  Import took 0.324030 seconds .
+
+========================================================================
+Received Prepare
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 13.54 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.0 MB.
+System memory in use after: 46.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2133.
+Total: 4.124300 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.106600 ms MarkObjects: 3.659000 ms  DeleteObjects: 0.085100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1384.321167 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A
+  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54459097da96198a9b8fb7e5faf05878') in 0.009364 seconds
+  Import took 0.013053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.158654 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382cbfce7685484878b492996cc6184') in 0.069243 seconds
+  Import took 0.072878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f568d752d57ad659c7ab9dc74499f2') in 0.022358 seconds
+  Import took 0.025555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2225bbb8455a46497ffdaf684c21cb') in 0.022295 seconds
+  Import took 0.026408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528412712ad77af58894542ac7ab7882') in 0.028954 seconds
+  Import took 0.031702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3695b6f59d6d084a13c216b40f5ce97b') in 0.020048 seconds
+  Import took 0.023939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aec0efe82f8ad2904f3f3eddbf0a9a0') in 0.018696 seconds
+  Import took 0.022202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7733a115a121bcd2e2922e04a4229b6a') in 0.018936 seconds
+  Import took 0.022470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58531d03ac5f0180b41df25f105738da') in 0.022088 seconds
+  Import took 0.025038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44acba2db75f70235b87cbd0501e5520') in 0.023035 seconds
+  Import took 0.026755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4506143ebe229fa563dbe2043985c775') in 0.017539 seconds
+  Import took 0.020338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03c6c7e4e3cb0684d663a6a1a4c5255') in 0.020492 seconds
+  Import took 0.024120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970e3238fe6da31956e66f39664b6c19') in 0.017391 seconds
+  Import took 0.020444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ea869c19f44281cf651e9b73f6a3a7') in 0.017809 seconds
+  Import took 0.021416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6488cc1e7461d87a57c15f47b2be8dee') in 0.017870 seconds
+  Import took 0.021264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fef67c7229ef31acd62e662c7211cb5') in 0.016430 seconds
+  Import took 0.019708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01da3d69be89c784ca056feeb31d5c9d') in 0.018922 seconds
+  Import took 0.022260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b819b800f52bc285510a3d355cf82f3') in 0.017954 seconds
+  Import took 0.021408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1eb7949a67ae147f8e3190ae58a2cc') in 0.014832 seconds
+  Import took 0.017770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfb666a724cc9b395da440e3cca4741') in 0.015132 seconds
+  Import took 0.019877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0594600ab84688a6808e9f4588767f61') in 0.016121 seconds
+  Import took 0.019135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382cbfce7685484878b492996cc6184') in 0.024920 seconds
+  Import took 0.028912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168f97992d802eb90106c488d4123344') in 0.030915 seconds
+  Import took 0.034503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bef001ca8724a38526207ced10abe2') in 0.021533 seconds
+  Import took 0.024808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411762a531f6db38352b7b3decbb1756') in 0.019512 seconds
+  Import took 0.022527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b3c2552d02964da0aab39c7ad0d2ec') in 0.015523 seconds
+  Import took 0.018429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bccb72d9e98da1804caf88a95f08fb') in 0.020188 seconds
+  Import took 0.024298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb3e9a299d25ef165a3f1aae0ace62') in 0.017673 seconds
+  Import took 0.021227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08dabdfb46def8cd060c7f1ea0da1b8') in 0.017753 seconds
+  Import took 0.021490 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003551 seconds.
+Registered in 0.008859 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
@@ -245,18 +853,815 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  1.361 seconds
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536936448) extendedPlatform(0)
 Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.1 MB.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2138.
-Total: 1.746100 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.438300 ms  DeleteObjects: 0.056100 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 2.478000 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.046900 ms  DeleteObjects: 0.055100 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1261.437255 seconds.
+  path: Assets/SimplePixelUI/prefabs
+  artifactKey: Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs using Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722256a6903749092ae9cd6a6d430fb2') in 0.015288 seconds
+  Import took 0.020252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/SimplePixelUI/prefabs
+  artifactKey: Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs using Guid(498dfc90ecb35db479c01f0e6a780c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722256a6903749092ae9cd6a6d430fb2') in 0.003211 seconds
+  Import took 0.007288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.106849 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible
+  artifactKey: Guid(7648bcc61850c594fa9fd8529d442205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible using Guid(7648bcc61850c594fa9fd8529d442205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3d0209ffcc3094a135f3d52d9a970a') in 0.009104 seconds
+  Import took 0.012259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040343 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded
+  artifactKey: Guid(80ca6cd00e68d8d459a7aaca894b354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded using Guid(80ca6cd00e68d8d459a7aaca894b354e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af46b8478be4946ae65650b8a8a7e17') in 0.007914 seconds
+  Import took 0.010616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102756 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab
+  artifactKey: Guid(ef109908df19c184caf39a26b22e4d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab using Guid(ef109908df19c184caf39a26b22e4d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1fe1d65f0ac9971bd062e4eaa8023') in 0.045258 seconds
+  Import took 0.048525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab
+  artifactKey: Guid(8abe7aadf2728b3488d16ca4e6257979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab using Guid(8abe7aadf2728b3488d16ca4e6257979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da8dfce26860b8b93dd8b47350d1aa6') in 0.010082 seconds
+  Import took 0.013531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab
+  artifactKey: Guid(fb7771b5a54c6d84d918b2f49b20468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab using Guid(fb7771b5a54c6d84d918b2f49b20468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1ee9308c3cf02665801a3e04124056') in 0.011723 seconds
+  Import took 0.014786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.775957 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1
+  artifactKey: Guid(a46ec3f3ff92ddd479e9ca9430036702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1 using Guid(a46ec3f3ff92ddd479e9ca9430036702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02ef6a50941a049dd16109b4c3c4b90') in 0.014438 seconds
+  Import took 0.020486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100490 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab
+  artifactKey: Guid(9c0222aa2c0f24845829200c2f67482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab using Guid(9c0222aa2c0f24845829200c2f67482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b565df5e6ee380418a73a32244b243') in 0.017941 seconds
+  Import took 0.021398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab
+  artifactKey: Guid(21081b1a91bd06f41ba626b23bdefcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab using Guid(21081b1a91bd06f41ba626b23bdefcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5958dd77bd188371623990cb6f7627e') in 0.009369 seconds
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab
+  artifactKey: Guid(c2bba1f796e6e1349a226f6dc300459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab using Guid(c2bba1f796e6e1349a226f6dc300459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44182ef261dddcd02c7d79d40f21d033') in 0.011664 seconds
+  Import took 0.016307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab
+  artifactKey: Guid(8335bd2e35e11194ca8ae3a7b865159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab using Guid(8335bd2e35e11194ca8ae3a7b865159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fac8316274a4b55f81e208765263a7') in 0.010050 seconds
+  Import took 0.014858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004122 seconds.
+  path: Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab
+  artifactKey: Guid(c2bba1f796e6e1349a226f6dc300459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab using Guid(c2bba1f796e6e1349a226f6dc300459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44182ef261dddcd02c7d79d40f21d033') in 0.005109 seconds
+  Import took 0.007927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.448156 seconds.
+  path: Assets/SimplePixelUI/artwork
+  artifactKey: Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork using Guid(225de32f8fed06f4ca6486d89d08abe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48398ebac31623fd90c473514590c415') in 0.009982 seconds
+  Import took 0.013236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.658407 seconds.
+  path: Assets/SimplePixelUI/fonts
+  artifactKey: Guid(162d4da9bc4ab2f41abc92be382336c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/fonts using Guid(162d4da9bc4ab2f41abc92be382336c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945fa538257745975b7cd72204344275') in 0.010313 seconds
+  Import took 0.014677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.679747 seconds.
+  path: Assets/SimplePixelUI/update 1.15
+  artifactKey: Guid(81a4a79eac8960b4ba1ce2ba4a80c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15 using Guid(81a4a79eac8960b4ba1ce2ba4a80c949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff09a5b2ef84a1add384a268656075a') in 0.008344 seconds
+  Import took 0.011970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.871339 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black
+  artifactKey: Guid(5b23af8a153ab7a4987aa88e72c13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black using Guid(5b23af8a153ab7a4987aa88e72c13877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d441479cdf1b09bfd66592ef3b5267') in 0.009025 seconds
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145349 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/rounded
+  artifactKey: Guid(8f4012ce779c2b9469a056dc7301018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/rounded using Guid(8f4012ce779c2b9469a056dc7301018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995d8792bd2eb7ae6936c871bf968156') in 0.003653 seconds
+  Import took 0.007104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109854 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab
+  artifactKey: Guid(58c66169087b95140a6cc11e38fe212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab using Guid(58c66169087b95140a6cc11e38fe212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b544f1c20ded696286f6fb5891f69117') in 0.008625 seconds
+  Import took 0.012037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab
+  artifactKey: Guid(9adec77f842a3fb488c3b6df9807c670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab using Guid(9adec77f842a3fb488c3b6df9807c670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b2b13ba49418ef0537cfbeba47a896') in 0.009699 seconds
+  Import took 0.013409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab
+  artifactKey: Guid(e3c89eeb7cd05334298761e133959adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab using Guid(e3c89eeb7cd05334298761e133959adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b13c0c02584c7d34f28341f6457b1f') in 0.028310 seconds
+  Import took 0.031319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab
+  artifactKey: Guid(569801959b8517443825f7b42a65f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab using Guid(569801959b8517443825f7b42a65f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4fe937dd32490ab9249bf8fb013690') in 0.007514 seconds
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.895668 seconds.
+  path: Assets/SimplePixelUI/ExamleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/ExamleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5329be800cb35615bc6360ac128087a') in 0.010398 seconds
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.126540 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible
+  artifactKey: Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible using Guid(a28442795d3458b49a9b4c24c1f84af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08112e7ba616eba4a51dc9b962136d5') in 0.010361 seconds
+  Import took 0.014407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.694106 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded
+  artifactKey: Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded using Guid(a149011ad80bea04e8233471eb6fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ceb7e86d88a7ee6fb4a19958d524e1') in 0.003311 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086189 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png
+  artifactKey: Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png using Guid(8117ad03e7d28324f97b6eddfdcd1e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e1556dfacc8887d4885656744a2f3') in 0.047815 seconds
+  Import took 0.051273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png
+  artifactKey: Guid(507d7869273b8054b8ca31e853b6b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png using Guid(507d7869273b8054b8ca31e853b6b39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc8c8c595315e32a34aa936d256553a') in 0.017757 seconds
+  Import took 0.022134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png
+  artifactKey: Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png using Guid(15a522d0e2dce05478bf9edcacc4297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19db8ac47f825ac1d5db469f781ca232') in 0.018239 seconds
+  Import took 0.022011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png
+  artifactKey: Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png using Guid(ff24c02cb4cb49e4785ad1a46df6a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b521b82af89561a21386a8ca1c9eb1') in 0.020811 seconds
+  Import took 0.023924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png
+  artifactKey: Guid(8b583b44f41f3a5408af4c2b94fda721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png using Guid(8b583b44f41f3a5408af4c2b94fda721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19a90c3adc5ac1576b09df4c4e0c515') in 0.016274 seconds
+  Import took 0.019549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png
+  artifactKey: Guid(7554aabff725fdc419da6efe95d2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png using Guid(7554aabff725fdc419da6efe95d2adf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f501617b25c4ae46f47ff388f7544680') in 0.019415 seconds
+  Import took 0.023875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png
+  artifactKey: Guid(ebe09f4a5655764478eb1eaf871ee9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png using Guid(ebe09f4a5655764478eb1eaf871ee9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c6f8ddb000cfd5f495d71016310416') in 0.017188 seconds
+  Import took 0.020673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.829657 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square
+  artifactKey: Guid(7e617f2d40d560b419f50ef2985bd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square using Guid(7e617f2d40d560b419f50ef2985bd2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f87c38d6be8f5c6f56aa0ea8f0b0d53') in 0.010034 seconds
+  Import took 0.013491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051692 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png
+  artifactKey: Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png using Guid(e4b7033fca3bc0e4192a1b77d73431d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a917b72a4063ee0c30b6d1c6c377b0') in 0.014666 seconds
+  Import took 0.018320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png
+  artifactKey: Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png using Guid(4a7e5d2419d92754da4c0f6996f2e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90583b5cc0392f1e820d0a229a71b4ac') in 0.016651 seconds
+  Import took 0.020748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png
+  artifactKey: Guid(2a5bbba961e88c446baa1abd22683e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png using Guid(2a5bbba961e88c446baa1abd22683e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98ab1ce2b0c682e01671a1089a775f2') in 0.013946 seconds
+  Import took 0.017896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png
+  artifactKey: Guid(e48b869e1b13ad54295d3d9efb9e78bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png using Guid(e48b869e1b13ad54295d3d9efb9e78bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f24043db49a5758569df44dba90bbb') in 0.017508 seconds
+  Import took 0.021193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png
+  artifactKey: Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png using Guid(89c89d31cbb023d4a87840ff06fe110e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3ae78e2dfb73f835b6cd499569942e') in 0.015373 seconds
+  Import took 0.018930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png
+  artifactKey: Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png using Guid(82306ec1555e74d41b5fc97d5e09f8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6ae82a3be73ba42b18e08e89d7b01') in 0.018944 seconds
+  Import took 0.022286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.471292 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible
+  artifactKey: Guid(323062aa4e025ff4f95dc86eef23c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible using Guid(323062aa4e025ff4f95dc86eef23c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c02617d34d8cdaeec1024323e5e560f') in 0.011357 seconds
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.057689 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/rounded
+  artifactKey: Guid(0c769134db3a6cd42aeff07c5319477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/rounded using Guid(0c769134db3a6cd42aeff07c5319477b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228866af7886eaa506fd8e94117567c6') in 0.004894 seconds
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307876 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square
+  artifactKey: Guid(e3d467676138ba445b3dd64415602d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square using Guid(e3d467676138ba445b3dd64415602d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82831d62cd1a62a392398768b0d70d53') in 0.003596 seconds
+  Import took 0.006799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082289 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Background.png
+  artifactKey: Guid(415f47e567b53254d89b2a71143dd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Background.png using Guid(415f47e567b53254d89b2a71143dd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4855b740e95446f9e331d95435516731') in 0.013893 seconds
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png
+  artifactKey: Guid(17f22ddd6c4bb6149b3d9f5e99f2a8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png using Guid(17f22ddd6c4bb6149b3d9f5e99f2a8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01042de94d90026d879f4800a2026264') in 0.017834 seconds
+  Import took 0.020939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/InputField.png
+  artifactKey: Guid(f183362426368e34496b9cd8904a5c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/InputField.png using Guid(f183362426368e34496b9cd8904a5c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79baa848922454284636c76e862c55a4') in 0.017241 seconds
+  Import took 0.021926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png
+  artifactKey: Guid(765c1f075652d7c429d7ea036691f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png using Guid(765c1f075652d7c429d7ea036691f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa89ea4734069e9e11be26eb29d0d9f') in 0.015383 seconds
+  Import took 0.019702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png
+  artifactKey: Guid(f728b782d4a108045accfa920e1196de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png using Guid(f728b782d4a108045accfa920e1196de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c88f1eee4ff5d79077c894cf21f0dd4') in 0.013674 seconds
+  Import took 0.017654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000909 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png
+  artifactKey: Guid(f954ddc440caa57419e70c4d3c8d8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png using Guid(f954ddc440caa57419e70c4d3c8d8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1fa875f33fe6b12d406ed35da45943') in 0.013956 seconds
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot.png
+  artifactKey: Guid(34c510437d4a64849902137b965707d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot.png using Guid(34c510437d4a64849902137b965707d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e766dcfd6d121b4d757ca3ea01d9ac37') in 0.020203 seconds
+  Import took 0.023882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.790035 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider
+  artifactKey: Guid(5b8f9e6acd7cc894e804d1193358ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider using Guid(5b8f9e6acd7cc894e804d1193358ef09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77469e2beeed64d38b57a8dae46444f8') in 0.008318 seconds
+  Import took 0.012538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249724 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png
+  artifactKey: Guid(b5219f202af5bdd4e9fcb57fda99b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png using Guid(b5219f202af5bdd4e9fcb57fda99b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ae624c176f12c5ae8ad1005ed80ff') in 0.014490 seconds
+  Import took 0.018091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png
+  artifactKey: Guid(47d2e7097cc912d40971fcca6913d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png using Guid(47d2e7097cc912d40971fcca6913d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc64a5b3bb60f31d2230503f9d52bae') in 0.018896 seconds
+  Import took 0.022154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png
+  artifactKey: Guid(4169d9a094f68d1438c1f9fe03aef3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png using Guid(4169d9a094f68d1438c1f9fe03aef3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6c97e27d1b13a625ef22391e27d44f') in 0.017881 seconds
+  Import took 0.021063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png
+  artifactKey: Guid(b5219f202af5bdd4e9fcb57fda99b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png using Guid(b5219f202af5bdd4e9fcb57fda99b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ae624c176f12c5ae8ad1005ed80ff') in 0.010653 seconds
+  Import took 0.015555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png
+  artifactKey: Guid(b49a694ebba53cd4bbf1230c480b77e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png using Guid(b49a694ebba53cd4bbf1230c480b77e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e46ab07214060ed10531fe292ea7cd') in 0.016104 seconds
+  Import took 0.020234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png
+  artifactKey: Guid(f9c3e861d74c4f0479a6a1decedcd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png using Guid(f9c3e861d74c4f0479a6a1decedcd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e75984a260cf3e5eae05c4512677059') in 0.015080 seconds
+  Import took 0.018171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.683503 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible
+  artifactKey: Guid(54870c172e13fc14bb5b7c75cdebce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible using Guid(54870c172e13fc14bb5b7c75cdebce71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd4d756cd330d5db37ed3d25f9f3d9a') in 0.009006 seconds
+  Import took 0.011742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.447471 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square
+  artifactKey: Guid(5ace1880ad3188c468dbca7724cbf7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square using Guid(5ace1880ad3188c468dbca7724cbf7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f1370de194b1c3c5a3a2265886330') in 0.003271 seconds
+  Import took 0.006937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087837 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab
+  artifactKey: Guid(34a5085941dd5244ea00b4973da6826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab using Guid(34a5085941dd5244ea00b4973da6826c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dc1e4e286e6afa36799bb8c669b2ca') in 0.010490 seconds
+  Import took 0.013957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab
+  artifactKey: Guid(c1cab1f5ff502444ebd7d89ca94564b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab using Guid(c1cab1f5ff502444ebd7d89ca94564b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a813c7aef58ea8d94affe8b34d9512de') in 0.016598 seconds
+  Import took 0.021489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab
+  artifactKey: Guid(5a95ea74f5258b641b3edb0e9ac9cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab using Guid(5a95ea74f5258b641b3edb0e9ac9cec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e271f1a1310e255654a701fff220971c') in 0.006897 seconds
+  Import took 0.011810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab
+  artifactKey: Guid(d7b27cefb8f78bf4b988766fe2ac0aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab using Guid(d7b27cefb8f78bf4b988766fe2ac0aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834131e6f10f5a6e6e295b3e85018fd') in 0.006818 seconds
+  Import took 0.010227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009402 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab
+  artifactKey: Guid(d7b27cefb8f78bf4b988766fe2ac0aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab using Guid(d7b27cefb8f78bf4b988766fe2ac0aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834131e6f10f5a6e6e295b3e85018fd') in 0.007950 seconds
+  Import took 0.011285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.826288 seconds.
+  path: Assets/SimplePixelUI/update 1.15/arrow_CC.png
+  artifactKey: Guid(40cc30e0527a8ed499251b53aca4a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/arrow_CC.png using Guid(40cc30e0527a8ed499251b53aca4a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05de6d6481e96811dc83684ab5c8c74') in 0.016168 seconds
+  Import took 0.020551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_GB.png
+  artifactKey: Guid(0bd7ebb4d8b09d44ca8d8480cb9cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_GB.png using Guid(0bd7ebb4d8b09d44ca8d8480cb9cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16bb182af608bdee7454cbfc4abc1a5') in 0.019231 seconds
+  Import took 0.022879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_rounded_GB.png
+  artifactKey: Guid(f3af77a762630694eaf22814ab6720d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_rounded_GB.png using Guid(f3af77a762630694eaf22814ab6720d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547049147418a56bfe0996ff0007f4e7') in 0.017995 seconds
+  Import took 0.021933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png
+  artifactKey: Guid(7f4dc7bd10a451142a52da3094c23e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png using Guid(7f4dc7bd10a451142a52da3094c23e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726595ca5ffbbdb21d7130073e4f7d61') in 0.019059 seconds
+  Import took 0.022382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_CC.png
+  artifactKey: Guid(ce9a9009142e1b04ebebbacbd4ea07d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_CC.png using Guid(ce9a9009142e1b04ebebbacbd4ea07d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234889dc9d4adde6951380de39b1b61d') in 0.017187 seconds
+  Import took 0.021389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_HCC.png
+  artifactKey: Guid(21038cc4c655d464db6d0c68d260acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_HCC.png using Guid(21038cc4c655d464db6d0c68d260acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a8f56117dba981ea748bb881716af0') in 0.014703 seconds
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/SimplePixelUI/update 1.15/dropdown_rounded_CC.png
+  artifactKey: Guid(b75ba154dac4d664aba533ede099ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/update 1.15/dropdown_rounded_CC.png using Guid(b75ba154dac4d664aba533ede099ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cbec424db20803fe8c73a111cfc9ab') in 0.018590 seconds
+  Import took 0.022312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.989983 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle
+  artifactKey: Guid(7e35de4db67d7524481ece60c51b8e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle using Guid(7e35de4db67d7524481ece60c51b8e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a795613a29914df5dae289f282f90b7') in 0.009783 seconds
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269460 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png
+  artifactKey: Guid(bb9e14963bf1eea4d9dec4fe54c1d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png using Guid(bb9e14963bf1eea4d9dec4fe54c1d800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cd7715754a0fc7b3dc319d630690fe') in 0.018335 seconds
+  Import took 0.021922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png
+  artifactKey: Guid(de91fcf09b3a58c40bd25a04beee4093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png using Guid(de91fcf09b3a58c40bd25a04beee4093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125bb9fb783891adb624274bb3b352a7') in 0.017287 seconds
+  Import took 0.021094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png
+  artifactKey: Guid(84c7515b38823fe45883fb4257d278ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png using Guid(84c7515b38823fe45883fb4257d278ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc0c9f45beff0fd2ac0b88cdc29251c') in 0.017581 seconds
+  Import took 0.021426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png
+  artifactKey: Guid(f21f23419a77a524794ab294dffc013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png using Guid(f21f23419a77a524794ab294dffc013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e1961107923f226c364a53f601b2c0') in 0.024027 seconds
+  Import took 0.028884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png
+  artifactKey: Guid(0ddd7add4d7a82545b7a9d8e26102d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png using Guid(0ddd7add4d7a82545b7a9d8e26102d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92434a3bae7cfc86056b0df2f97d0e08') in 0.018890 seconds
+  Import took 0.023192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.310053 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons
+  artifactKey: Guid(a5ddfb1c3a7b24a4b96f71bbc0ccc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons using Guid(a5ddfb1c3a7b24a4b96f71bbc0ccc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c0fd6c84381cd93647b733a9a3c3a4') in 0.010494 seconds
+  Import took 0.013785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002706 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons
+  artifactKey: Guid(a5ddfb1c3a7b24a4b96f71bbc0ccc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons using Guid(a5ddfb1c3a7b24a4b96f71bbc0ccc067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c0fd6c84381cd93647b733a9a3c3a4') in 0.005323 seconds
+  Import took 0.009679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.704059 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png
+  artifactKey: Guid(fa851e716c72bec419b716612454ae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png using Guid(fa851e716c72bec419b716612454ae3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbbf277793e9b0da0f6e59d23b59439') in 0.017561 seconds
+  Import took 0.021645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png
+  artifactKey: Guid(3eb9334422defff42b79c46e59b2f7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png using Guid(3eb9334422defff42b79c46e59b2f7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1080c91f6949e19afa8826654d78b5b5') in 0.018033 seconds
+  Import took 0.022288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png
+  artifactKey: Guid(3ec822cb93351794ea0f21230f0d5d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png using Guid(3ec822cb93351794ea0f21230f0d5d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0080c524b4288d233f6ff79d8ea84a5') in 0.026439 seconds
+  Import took 0.030379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png
+  artifactKey: Guid(d069eee53ae0d4a4e9a92c1eac8b065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png using Guid(d069eee53ae0d4a4e9a92c1eac8b065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbda7cf73559081a725c4073209bb35d') in 0.015660 seconds
+  Import took 0.019550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.130148 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded
+  artifactKey: Guid(02ab7e8b7e5809d45b2c808195720164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded using Guid(02ab7e8b7e5809d45b2c808195720164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef18f16f1abacf1a89e85e8f779d401') in 0.003743 seconds
+  Import took 0.006937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091176 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab
+  artifactKey: Guid(155580ad0a717fc4799c95831dcf3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab using Guid(155580ad0a717fc4799c95831dcf3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5360b24d42f6a3166ff8f0fd96e9f5') in 0.006403 seconds
+  Import took 0.010047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab
+  artifactKey: Guid(4f20bbb1532ef8046b7d52c792f77eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab using Guid(4f20bbb1532ef8046b7d52c792f77eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e025fc4253ba6cebfb27a590ecbd4e') in 0.005243 seconds
+  Import took 0.008271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab
+  artifactKey: Guid(256b26fa97e69fd4786369541c2e5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab using Guid(256b26fa97e69fd4786369541c2e5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595771a1881cacb265701e2966150bea') in 0.009509 seconds
+  Import took 0.013849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab
+  artifactKey: Guid(5190cc48ca9ccfc43a45a5b92438465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab using Guid(5190cc48ca9ccfc43a45a5b92438465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5a5f58c1ac80de1514ae5e3a6698fb') in 0.005851 seconds
+  Import took 0.009829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.112476 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons
+  artifactKey: Guid(8b1b317c9a77dae488ffa8adc8273ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons using Guid(8b1b317c9a77dae488ffa8adc8273ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e54033d7bc1005eb4c2f530a3045c52') in 0.011914 seconds
+  Import took 0.017977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082549 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab
+  artifactKey: Guid(fb307cc3c7f015e4baf52eb86fe50bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab using Guid(fb307cc3c7f015e4baf52eb86fe50bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e2f1e432cad68456ab09f23a27f50') in 0.014759 seconds
+  Import took 0.020769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab
+  artifactKey: Guid(410fa72dd05a6b440b82f1abef66e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab using Guid(410fa72dd05a6b440b82f1abef66e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315b18afbaf777c534b09f9a2378563c') in 0.021836 seconds
+  Import took 0.028081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.333608 seconds.
+  path: Assets/SimplePixelUI/fonts/Font1
+  artifactKey: Guid(258bd7417d3eb4949b2976f26006b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/fonts/Font1 using Guid(258bd7417d3eb4949b2976f26006b90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7edf49350d221e7f3503166ff5f954') in 0.011731 seconds
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083836 seconds.
+  path: Assets/SimplePixelUI/fonts/Font1/pixelfont.ttf
+  artifactKey: Guid(b6349d08a5335cd4aa534282435d11cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/fonts/Font1/pixelfont.ttf using Guid(b6349d08a5335cd4aa534282435d11cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2ad114c240d21983609535406d9f60') in 0.066221 seconds
+  Import took 0.069682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.848220 seconds.
+  path: Assets/SimplePixelUI/fonts/Font2
+  artifactKey: Guid(09cb45c82c419364dab553f5c1886141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/fonts/Font2 using Guid(09cb45c82c419364dab553f5c1886141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacf01c1610e0574c29487af90afd437') in 0.009539 seconds
+  Import took 0.013162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554623 seconds.
+  path: Assets/SimplePixelUI/fonts/Font2/pixelfont2.ttf
+  artifactKey: Guid(a6dede01cb8e479429b8bc5253a2ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePixelUI/fonts/Font2/pixelfont2.ttf using Guid(a6dede01cb8e479429b8bc5253a2ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573d5ca5bf17088cfff23224d5447e2b') in 0.017579 seconds
+  Import took 0.020558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <f93bc12ce1034617aac9a18135b94276>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <f93bc12ce1034617aac9a18135b94276>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Platform modules already initialized, skipping
+Shader 'PointClouds/PointSplat': fallback shader 'PointClouds/PointSplatLegacy' not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 2.379100 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.082900 ms  DeleteObjects: 0.064500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

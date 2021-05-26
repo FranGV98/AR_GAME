@@ -12,6 +12,7 @@ public class BuildingScript : MonoBehaviour
     public Text Build_info;
     private Player_Script player;
     public GameObject Building;
+    public GameObject Placer;
     void Start()
     {
         player = GameObject.Find("ARCamera").GetComponent<Player_Script>();
@@ -27,6 +28,7 @@ public class BuildingScript : MonoBehaviour
         if(player.Score_Value >= Price)
         {
             Building.SetActive(true);
+            Placer.SetActive(false);
             player.Score_Value -= Price;
         }
     }
