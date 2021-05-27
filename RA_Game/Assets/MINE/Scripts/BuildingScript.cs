@@ -15,6 +15,7 @@ public class BuildingScript : MonoBehaviour
     public Text Build_Description;
     private Player_Script player;
     public GameObject Building;
+    public GameObject Placer;
 
     public int Building_ID;
     public bool Functional;
@@ -60,6 +61,7 @@ public class BuildingScript : MonoBehaviour
         if(player.Score_Value >= Price)
         {
             Building.SetActive(true);
+            Placer.SetActive(false);
             player.Score_Value -= Price;
             Functional = true;
             Level++;
