@@ -17,6 +17,7 @@ public class GameMan_Script : MonoBehaviour
 
     void Update()
     {
+        
         SpawnTimer += Time.deltaTime;
         if (SpawnTimer >= SpawnTime)
         {
@@ -30,6 +31,7 @@ public class GameMan_Script : MonoBehaviour
         Vector3 SpawnPoint = gameObject.transform.position + new Vector3(Random.Range(-SpawnArea.x / 2, SpawnArea.x / 2), Random.Range(-SpawnArea.y / 2, SpawnArea.y / 2), Random.Range(-SpawnArea.z / 2, SpawnArea.z / 2));
         GameObject newCookie = Instantiate(Cookie_Prefab, SpawnPoint, Quaternion.identity);
         newCookie.transform.parent = gameObject.transform;
+        newCookie.GetComponent<Rigidbody>().AddTorque(new Vector3(50, 50, 50), ForceMode.Impulse);
     }
 
     private void OnDrawGizmosSelected()
