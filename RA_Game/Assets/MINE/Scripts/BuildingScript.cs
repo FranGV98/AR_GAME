@@ -24,7 +24,7 @@ public class BuildingScript : MonoBehaviour
     
     void Start()
     {
-        player = GameObject.Find("ARCamera").GetComponent<Player_Script>();
+        player = GameObject.Find("ARCamera(PLAYER)").GetComponent<Player_Script>();
         Recipient = GameObject.Find("Recipient").GetComponent<RecipienteScript>();
         Base_Price = Price;
         GetCoinTime = 1.0f;

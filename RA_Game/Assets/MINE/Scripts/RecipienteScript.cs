@@ -9,7 +9,7 @@ public class RecipienteScript : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.Find("ARCamera").GetComponent<Player_Script>();
+        player = GameObject.Find("ARCamera(PLAYER)").GetComponent<Player_Script>();
     }
     public void CleanCoinsList()
     {
