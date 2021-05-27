@@ -12,7 +12,8 @@ public class Player_Script : MonoBehaviour
     private Ray Rayinfo;
     private RaycastHit Hitinfo;
     public LayerMask FloorMask, ObjectMask;
-
+    private float timeOffset = 0.0f;
+    private GameObject TempObject;
     //UI
     public Text Score_Text;
 
@@ -23,18 +24,33 @@ public class Player_Script : MonoBehaviour
         Recipient = GameObject.Find("Recipient").GetComponent<RecipienteScript>();
     }
 
-    // Update is called once per frame
-    void Update()
+// Update is called once per frame
+void Update()
     {
         Score_Text.text = "Score: " + Score_Value;
+
+        if (TempObject != null)
+        {
+            timeOffset += Time.deltaTime;
+
+            if (timeOffset >= 0.3f)
+            {
+               if (!TempObject.GetComponent<ParticleSystem>().isPlaying)
+                    Destroy(TempObject);
+               else
+                    TempObject.GetComponent<MeshRenderer>().forceRenderingOff = true;
+                          
+                timeOffset = 0.0f;
+            }
+        }
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject TempObject = GetObjectToRay(Hitinfo, ObjectMask);
+            TempObject = GetObjectToRay(Hitinfo, ObjectMask);
             
             if(TempObject != null)
             {
+                TempObject.GetComponent<ParticleSystem>().Play();
                 Score_Value += Single_Coin_Value;
-                Destroy(TempObject);
                 Recipient.CleanCoinsList();
             }
         }
