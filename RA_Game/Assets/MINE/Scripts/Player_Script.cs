@@ -7,6 +7,7 @@ public class Player_Script : MonoBehaviour
 {
     // Start is called before the first frame update
     public int Score_Value;
+    [HideInInspector]public int Single_Coin_Value;
 
     private Ray Rayinfo;
     private RaycastHit Hitinfo;
@@ -14,9 +15,12 @@ public class Player_Script : MonoBehaviour
 
     //UI
     public Text Score_Text;
+
+    private RecipienteScript Recipient;
     void Start()
     {
-        
+        Single_Coin_Value = 1;
+        Recipient = GameObject.Find("Recipient").GetComponent<RecipienteScript>();
     }
 
     // Update is called once per frame
@@ -29,8 +33,9 @@ public class Player_Script : MonoBehaviour
             
             if(TempObject != null)
             {
-                Score_Value++;
+                Score_Value += Single_Coin_Value;
                 Destroy(TempObject);
+                Recipient.CleanCoinsList();
             }
         }
     }
