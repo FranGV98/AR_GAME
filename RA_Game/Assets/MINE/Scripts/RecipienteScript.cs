@@ -21,13 +21,21 @@ public class RecipienteScript : MonoBehaviour
     }
     public void RecolectCoins()
     {
-        player.Score_Value += (int)(Coins_List.Count * 0.7f * player.Single_Coin_Value);
+        player.Score_Value += (int)(Coins_List.Count * player.Single_Coin_Value);
 
-        for (int i = 0; i < (int)(Coins_List.Count * 0.7f); i++)
+        /*
+            for (int i = 0; i < (int)(Coins_List.Count * 0.7f); i++)
         {
             Destroy(Coins_List[i]);
             Coins_List.Remove(Coins_List[i]);
+        } 
+        */
+        if(Coins_List.Count > 0)
+        {
+            Destroy(Coins_List[0]);
+            Coins_List.Remove(Coins_List[0]);
         }
+
     }
 
     private void OnTriggerEnter(Collider col)

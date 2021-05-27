@@ -33,8 +33,8 @@ public class BuildingScript : MonoBehaviour
 
     void Update()
     {
-        Build_info.text = (Name + "  Lvl: " + Level + " Price: " + Price);
-        Build_Description.text = "Description:" + Description;
+        Build_info.text = (Name + " - Lvl: " + Level + "    Price: " + Price);
+        Build_Description.text = Description;
 
         if(Functional)
         {
@@ -100,9 +100,10 @@ public class BuildingScript : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if (Timer >= GetCoinTime * (100.0f / (float)Level))
+        if (Timer >= (GetCoinTime * (10.0f / (float)Level)))
         {
             Recipient.RecolectCoins();
+            Timer = 0;
         }
     }
 }
