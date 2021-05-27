@@ -35,11 +35,11 @@ void Update()
 
             if (timeOffset >= 0.3f)
             {
-               if (!TempObject.GetComponent<ParticleSystem>().isPlaying)
-                    Destroy(TempObject);
-               else
-                    TempObject.GetComponent<MeshRenderer>().forceRenderingOff = true;
-                          
+                //if (!TempObject.GetComponent<ParticleSystem>().isPlaying)
+                //     Destroy(TempObject);
+                //else
+                //     TempObject.GetComponent<MeshRenderer>().forceRenderingOff = true;
+                Destroy(TempObject);
                 timeOffset = 0.0f;
             }
         }

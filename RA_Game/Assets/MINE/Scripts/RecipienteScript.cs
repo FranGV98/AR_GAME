@@ -21,7 +21,7 @@ public class RecipienteScript : MonoBehaviour
     }
     public void RecolectCoins()
     {
-        player.Score_Value += (int)(Coins_List.Count * player.Single_Coin_Value);
+        player.Score_Value += (int)(player.Single_Coin_Value);
 
         /*
             for (int i = 0; i < (int)(Coins_List.Count * 0.7f); i++)
@@ -32,8 +32,9 @@ public class RecipienteScript : MonoBehaviour
         */
         if(Coins_List.Count > 0)
         {
-            Destroy(Coins_List[0]);
-            Coins_List.Remove(Coins_List[0]);
+            int coin_todelete = Random.Range(0, Coins_List.Count-1); 
+            Destroy(Coins_List[coin_todelete]);
+            Coins_List.Remove(Coins_List[coin_todelete]);
         }
 
     }
