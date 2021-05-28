@@ -206,7 +206,7 @@ MeshCollider:
   m_GameObject: {fileID: 52681822}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -2839,7 +2839,7 @@ Transform:
   m_GameObject: {fileID: 1187980157}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1701783336}
   m_RootOrder: 4
@@ -2862,7 +2862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1246324566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2909,7 +2909,7 @@ Transform:
   m_GameObject: {fileID: 1246324565}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.49, z: 0}
-  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 1701783336}
   m_RootOrder: 2
@@ -4287,6 +4287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockTerrain
       objectReference: {fileID: 0}
+    - target: {fileID: 1658102121071308, guid: 62f4b24daa0d927499c1eeb6ab022ef5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4035889921120642, guid: 62f4b24daa0d927499c1eeb6ab022ef5, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -4341,6 +4345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4035889921120642, guid: 62f4b24daa0d927499c1eeb6ab022ef5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23556501368495340, guid: 62f4b24daa0d927499c1eeb6ab022ef5,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

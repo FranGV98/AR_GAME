@@ -91,7 +91,7 @@ public class BuildingScript : MonoBehaviour
 
         if (Timer >= GetCoinTime * 5)
         {
-            player.Score_Value = (int)(player.Score_Value * 1.05f);
+            player.Score_Value = (int)(player.Score_Value * (1.0f + 0.01f*Level));
             Timer = 0;
         }
     }
