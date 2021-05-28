@@ -57,6 +57,18 @@ void Update()
                 Recipient.CleanCoinsList();
             }
         }
+        if (Input.GetTouch(0).phase.Equals(TouchPhase.Began))
+        {
+            GameObject tempObject = GetObjectToRay(Hitinfo, ObjectMask);
+
+            if (tempObject != null)
+            {
+                PlayFx(tempObject);
+                Score_Value += Single_Coin_Value;
+                Recipient.CleanCoinsList();
+            }
+        }
+
     }
 
         private Vector3 GetPointToRay(RaycastHit Hit, LayerMask TempMask)
