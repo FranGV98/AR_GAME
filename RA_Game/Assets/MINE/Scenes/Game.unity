@@ -2076,6 +2076,8 @@ MonoBehaviour:
   ObjectMask:
     serializedVersion: 2
     m_Bits: 128
+  coinEffect: {fileID: 4471062049661343968, guid: 426d5ff5558dfb640be9f3894e80a41b,
+    type: 3}
   Score_Text: {fileID: 65059690}
 --- !u!114 &903455718
 MonoBehaviour:
