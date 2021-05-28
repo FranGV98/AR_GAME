@@ -12,8 +12,6 @@ public class Player_Script : MonoBehaviour
     private Ray Rayinfo;
     private RaycastHit Hitinfo;
     public LayerMask FloorMask, ObjectMask;
-    private float timeOffset = 0.0f;
-
     public ParticleSystem coinEffect;
     //UI
     public Text Score_Text;
@@ -27,12 +25,9 @@ public class Player_Script : MonoBehaviour
         
         ParticleSystem particleEffect = Instantiate(coinEffect) as ParticleSystem;
 
-        coinEffect.Play();
+        particleEffect.Play();
 
-        Destroy(coinEffect.gameObject, coinEffect.duration);
-
-        Destroy(tempObject, 0.15f);
-
+        Destroy(particleEffect.gameObject, particleEffect.duration);       
     }
 
     void Start()
@@ -53,21 +48,22 @@ void Update()
             if(tempObject != null)
             {
                 PlayFx(tempObject);
+                Destroy(tempObject, 0.15f);
                 Score_Value += Single_Coin_Value;
                 Recipient.CleanCoinsList();
             }
         }
-        if (Input.GetTouch(0).phase.Equals(TouchPhase.Began))
-        {
-            GameObject tempObject = GetObjectToRay(Hitinfo, ObjectMask);
+        //if (Input.GetTouch(0).phase.Equals(TouchPhase.Began))
+        //{
+        //    GameObject tempObject = GetObjectToRay(Hitinfo, ObjectMask);
 
-            if (tempObject != null)
-            {
-                PlayFx(tempObject);
-                Score_Value += Single_Coin_Value;
-                Recipient.CleanCoinsList();
-            }
-        }
+        //    if (tempObject != null)
+        //    {
+        //        PlayFx(tempObject);
+        //        Score_Value += Single_Coin_Value;
+        //        Recipient.CleanCoinsList();
+        //    }
+        //}
 
     }
 
