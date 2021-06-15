@@ -21,13 +21,17 @@ public class Player_Script : MonoBehaviour
                                             
     void PlayFx(GameObject tempObject)
     {
+        tempObject.GetComponent<MeshRenderer>().enabled = false;
+
         coinEffect.transform.position = tempObject.transform.position;
         
         ParticleSystem particleEffect = Instantiate(coinEffect) as ParticleSystem;
 
         particleEffect.Play();
 
-        Destroy(particleEffect.gameObject, particleEffect.duration);       
+        tempObject.GetComponent<AudioSource>().Play();
+
+        Destroy(particleEffect.gameObject, tempObject.GetComponent<AudioSource>().clip.length);       
     }
 
     void Start()
@@ -39,7 +43,7 @@ public class Player_Script : MonoBehaviour
 // Update is called once per frame
 void Update()
     {
-        Score_Text.text = "Score: " + Score_Value;
+        Score_Text.text = "Gold: " + Score_Value;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -48,7 +52,7 @@ void Update()
             if(tempObject != null)
             {
                 PlayFx(tempObject);
-                Destroy(tempObject, 0.15f);
+                Destroy(tempObject, tempObject.GetComponent<AudioSource>().clip.length);
                 Score_Value += Single_Coin_Value;
                 Recipient.CleanCoinsList();
             }

@@ -23,13 +23,13 @@ public class RecipienteScript : MonoBehaviour
     {
         player.Score_Value += (int)(player.Single_Coin_Value);
 
-        /*
+        
             for (int i = 0; i < (int)(Coins_List.Count * 0.7f); i++)
         {
             Destroy(Coins_List[i]);
             Coins_List.Remove(Coins_List[i]);
         } 
-        */
+        
         if(Coins_List.Count > 0)
         {
             int coin_todelete = Random.Range(0, Coins_List.Count-1); 

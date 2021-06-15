@@ -14,18 +14,24 @@ public class BuildingScript : MonoBehaviour
     public Text Build_info;
     public Text Build_Description;
     private Player_Script player;
+    private GameMan_Script manager;
     public GameObject Building;
     public GameObject Placer;
+    public Button Building_Button;
+    public Text Buy_text;
 
     public int Building_ID;
     public bool Functional;
     private float Timer, GetCoinTime;
+    public GameObject Coin_Prefab, coin_spawnpoint;
+    public List<GameObject> Building_evolutions;
 
     private RecipienteScript Recipient;
     
     void Start()
     {
         player = GameObject.Find("ARCamera(PLAYER)").GetComponent<Player_Script>();
+        manager = GameObject.Find("CoinSpawner").GetComponent<GameMan_Script>();
         Recipient = GameObject.Find("Recipient").GetComponent<RecipienteScript>();
         Base_Price = Price;
         GetCoinTime = 1.0f;
@@ -36,7 +42,21 @@ public class BuildingScript : MonoBehaviour
         Build_info.text = (Name + " - Lvl: " + Level + "    Price: " + Price);
         Build_Description.text = Description;
 
-        if(Functional)
+        if (player.Score_Value <= Price)
+        {
+            Building_Button.GetComponent<Image>().color = new Vector4(0.5f, 0.5f, 0.5f, 0.5f);
+        }
+        else
+        {
+            Building_Button.GetComponent<Image>().color = new Vector4(1, 0.7f, 0.15f, 1);
+        }
+
+        if(Level > 1)
+        {
+            Buy_text.text = "Upgrade";
+        }
+
+        if (Functional)
         {
             switch (Building_ID)
             {
@@ -45,12 +65,12 @@ public class BuildingScript : MonoBehaviour
                     break;
                 case 2:                             //TREASURY
                     TreasureBehaviour();
+                    break;     
+                case 4:
+                    ChurchBehaviour();              //CHURCH
                     break;
                 case 3:
                     UniversityBehaviour();          //UNIVERSITY
-                    break;
-                case 4:
-                    ChurchBehaviour();              //CHURCH
                     break;
             }
         }       
@@ -66,6 +86,19 @@ public class BuildingScript : MonoBehaviour
             Functional = true;
             Level++;
             Price =  (int)(Base_Price * Mathf.Pow(1.15f,Level));
+
+            switch (Level)
+            {
+                case 4:
+                    Building_evolutions[0].SetActive(false);
+                    Building_evolutions[1].SetActive(true);
+                    break;
+
+                case 8:
+                    Building_evolutions[1].SetActive(false);
+                    Building_evolutions[2].SetActive(true);
+                    break;
+            }
         }
     }
 
@@ -76,6 +109,11 @@ public class BuildingScript : MonoBehaviour
         if (Timer >= GetCoinTime * (5.0f/(float)Level))
         {
             player.Score_Value++;
+            Building.GetComponent<Animator>().SetTrigger("coin");
+            Building.GetComponent<Animator>().SetFloat("speed", Level/2);
+            GameObject newCookie = Instantiate(Coin_Prefab, coin_spawnpoint.transform.position, Quaternion.identity);
+            newCookie.transform.parent = Building.transform;
+            Destroy(newCookie, 1f);
             Timer = 0;
         }
     }
@@ -105,5 +143,6 @@ public class BuildingScript : MonoBehaviour
             Recipient.RecolectCoins();
             Timer = 0;
         }
+        manager.SpawnTime = (2f / (float)Level /2f);
     }
 }

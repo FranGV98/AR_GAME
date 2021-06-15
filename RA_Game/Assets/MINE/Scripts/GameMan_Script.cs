@@ -7,7 +7,9 @@ public class GameMan_Script : MonoBehaviour
     public float SpawnTimer;
     public float SpawnTime;
     public GameObject Cookie_Prefab;
+    public GameObject obj_reference;
 
+    public List<AudioClip> Coin_SFX;
     public Vector3 SpawnArea;
 
     void Start()
@@ -17,12 +19,14 @@ public class GameMan_Script : MonoBehaviour
 
     void Update()
     {
-        
-        SpawnTimer += Time.deltaTime;
-        if (SpawnTimer >= SpawnTime)
+        if(obj_reference.GetComponent<MeshRenderer>().isVisible)
         {
-            SpawnCookies();
-            SpawnTimer = 0;
+            SpawnTimer += Time.deltaTime;
+            if (SpawnTimer >= SpawnTime)
+            {
+                SpawnCookies();
+                SpawnTimer = 0;
+            }
         }
     }
 
@@ -32,6 +36,7 @@ public class GameMan_Script : MonoBehaviour
         GameObject newCookie = Instantiate(Cookie_Prefab, SpawnPoint, Quaternion.identity);
         newCookie.transform.parent = gameObject.transform;
         newCookie.GetComponent<Rigidbody>().AddTorque(new Vector3(50, 50, 50), ForceMode.Impulse);
+        newCookie.GetComponent<AudioSource>().clip = Coin_SFX[Random.Range(0,2)];
     }
 
     private void OnDrawGizmosSelected()
