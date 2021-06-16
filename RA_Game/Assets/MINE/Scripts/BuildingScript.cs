@@ -25,6 +25,8 @@ public class BuildingScript : MonoBehaviour
     private float Timer, GetCoinTime;
     public GameObject Coin_Prefab, coin_spawnpoint;
     public List<GameObject> Building_evolutions;
+    public AudioSource Audio_Emitter;
+    public AudioClip SFX_build, SFX_upgrade;
 
     private RecipienteScript Recipient;
     
@@ -33,6 +35,8 @@ public class BuildingScript : MonoBehaviour
         player = GameObject.Find("ARCamera(PLAYER)").GetComponent<Player_Script>();
         manager = GameObject.Find("CoinSpawner").GetComponent<GameMan_Script>();
         Recipient = GameObject.Find("Recipient").GetComponent<RecipienteScript>();
+        Audio_Emitter = gameObject.GetComponent<AudioSource>();
+        Audio_Emitter.clip = SFX_build;
         Base_Price = Price;
         GetCoinTime = 1.0f;
     }
@@ -51,10 +55,8 @@ public class BuildingScript : MonoBehaviour
             Building_Button.GetComponent<Image>().color = new Vector4(1, 0.7f, 0.15f, 1);
         }
 
-        if(Level > 1)
-        {
-            Buy_text.text = "Upgrade";
-        }
+
+
 
         if (Functional)
         {
@@ -80,12 +82,19 @@ public class BuildingScript : MonoBehaviour
     {
         if(player.Score_Value >= Price)
         {
+            Audio_Emitter.Play();
             Building.SetActive(true);
             Placer.SetActive(false);
             player.Score_Value -= Price;
             Functional = true;
             Level++;
             Price =  (int)(Base_Price * Mathf.Pow(1.15f,Level));
+
+            if (Level == 2)
+            {
+                Buy_text.text = "Upgrade";
+                Audio_Emitter.clip = SFX_upgrade;
+            }
 
             switch (Level)
             {
@@ -143,6 +152,6 @@ public class BuildingScript : MonoBehaviour
             Recipient.RecolectCoins();
             Timer = 0;
         }
-        manager.SpawnTime = (2f / (float)Level /2f);
+        //manager.SpawnTime = (2f / (float)Level /2f);
     }
 }
